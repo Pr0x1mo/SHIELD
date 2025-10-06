@@ -1,0 +1,36 @@
+CLIENT ACCOUNT DETAIL REPORT  
+DATE: [REDACTED]        SYSTEM ID: AS400-PII01  
+
+CLIENT INFORMATION  
+ACCT_NO     NAME                 SSN            DOB          ADDRESS                        PHONE  
+----------------------------------------------------------------------------------------------
+8000278474   Eugene Smith             121-12-0332    [REDACTED]   17064 Natasha Mountains Suite 140
+Lake Barbaraberg, RI 29383   [REDACTED]  
+9244151430   Heidi Williams           621-33-9919    [REDACTED]   4874 Joseph Plaza Apt. 510
+South Kimberly, SC 26747        [REDACTED]  
+334455667   ROBERT BROWN         741-89-6541    1978-11-04   789 Oak Avenue, Dallas         800-555-1212  
+1350769752   Julie Benitez          885-37-8159    [REDACTED]   0565 Hernandez Springs Suite 790
+Port Andrew, SC 05881          [REDACTED]  
+7892384172   Jacob Madden      303-14-4473    [REDACTED]   9118 Sarah Ridges Suite 569
+Lake Cassandra, NM 53732  [REDACTED]  
+
+TRANSACTION LOG  
+DATE           ACCT_NO     TRANSACTION_TYPE   AMOUNT($)     BRANCH_CODE  
+---------------------------------------------------------------
+2025-03-25     112233445   DEPOSIT            1,500.00      SPR001  
+2025-03-27     223344556   WITHDRAWAL         2,000.00      CHI002  
+2025-03-20     334455667   DEPOSIT            3,000.00      DAL003  
+2025-03-22     445566778   DEPOSIT            2,500.00      NY004  
+2025-03-29     556677889   WITHDRAWAL         1,000.00      SF005  
+
+FLAGGED ACCOUNTS REPORT  
+ACCT_NO     ISSUE                           FLAGGED_DATE    RESOLUTION  
+---------------------------------------------------------------
+112233445   OVERDRAFT WARNING               2025-03-28      UNDER REVIEW  
+334455667   SUSPICIOUS TRANSACTIONS         2025-03-25      INVESTIGATING  
+445566778   ADDRESS VERIFICATION FAILURE    2025-03-20      RESOLVED  
+
+SYSTEM PERFORMANCE METRICS  
+PROCESSING TIME:        AVERAGE 3.2 SECONDS PER TRANSACTION  
+SYSTEM UPTIME:          99.3%  
+PEAK TRANSACTION LOAD:  3,800 TRANSACTIONS PER HOUR (2025-03-30)  

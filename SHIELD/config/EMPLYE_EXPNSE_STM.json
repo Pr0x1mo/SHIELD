@@ -1,0 +1,129 @@
+{
+  "report_name": "EMPLYE_EXPNSE_STM",
+  "header_skip": 0,
+  "footer_skip": 3,
+  "use_content_date": false,
+  "show_csv_header": false,
+  "fields": [
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 1,
+      "line": 3,
+      "left": 0,
+      "right": 13,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "PERSON",
+      "group": 1,
+      "line": 3,
+      "left": 13,
+      "right": 34,
+      "color": "#ffff80"
+    },
+    {
+      "label": "DEPARTMENT",
+      "group": 1,
+      "line": 3,
+      "left": 34,
+      "right": 53,
+      "color": "#80ff80"
+    },
+    {
+      "label": "MONEY",
+      "group": 1,
+      "line": 3,
+      "left": 53,
+      "right": 74,
+      "color": "#80ffff"
+    },
+    {
+      "label": "MONEY",
+      "group": 1,
+      "line": 3,
+      "left": 74,
+      "right": 91,
+      "color": "#0080ff"
+    },
+    {
+      "label": "MONEY",
+      "group": 1,
+      "line": 3,
+      "left": 91,
+      "right": 105,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "DATE",
+      "group": 2,
+      "line": 10,
+      "left": 0,
+      "right": 13,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 2,
+      "line": 10,
+      "left": 13,
+      "right": 26,
+      "color": "#ff0000"
+    },
+    {
+      "label": "REASON",
+      "group": 2,
+      "line": 10,
+      "left": 26,
+      "right": 47,
+      "color": "#0080ff"
+    },
+    {
+      "label": "MONEY",
+      "group": 2,
+      "line": 10,
+      "left": 47,
+      "right": 62,
+      "color": "#00ff80"
+    },
+    {
+      "label": "REASON",
+      "group": 2,
+      "line": 10,
+      "left": 62,
+      "right": 91,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 3,
+      "line": 17,
+      "left": 0,
+      "right": 13,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "ISSUE",
+      "group": 3,
+      "line": 17,
+      "left": 13,
+      "right": 45,
+      "color": "#ffff80"
+    },
+    {
+      "label": "DATE",
+      "group": 3,
+      "line": 17,
+      "left": 45,
+      "right": 61,
+      "color": "#ff8040"
+    },
+    {
+      "label": "REASON",
+      "group": 3,
+      "line": 17,
+      "left": 61,
+      "right": 91,
+      "color": "#ffcccc"
+    }
+  ]
+}

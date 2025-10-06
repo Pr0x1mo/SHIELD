@@ -1,0 +1,65 @@
+{
+  "report_name": "OneRecordACCTDETAIL",
+  "header_skip": 0,
+  "footer_skip": 0,
+  "use_content_date": false,
+  "show_csv_header": false,
+  "fields": [
+    {
+      "label": "REPORT NAME",
+      "group": 1,
+      "line": 1,
+      "left": 13,
+      "right": 23,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 2,
+      "line": 6,
+      "left": 0,
+      "right": 14,
+      "color": "#ff8040"
+    },
+    {
+      "label": "NAME",
+      "group": 2,
+      "line": 6,
+      "left": 14,
+      "right": 33,
+      "color": "#ffff80"
+    },
+    {
+      "label": "SSN",
+      "group": 2,
+      "line": 6,
+      "left": 33,
+      "right": 46,
+      "color": "#80ff80"
+    },
+    {
+      "label": "DOB",
+      "group": 2,
+      "line": 6,
+      "left": 46,
+      "right": 58,
+      "color": "#80ffff"
+    },
+    {
+      "label": "ADDRESS",
+      "group": 2,
+      "line": 6,
+      "left": 58,
+      "right": 87,
+      "color": "#0080ff"
+    },
+    {
+      "label": "PHONE_NUMBER",
+      "group": 2,
+      "line": 6,
+      "left": 87,
+      "right": 103,
+      "color": "#ff80c0"
+    }
+  ]
+}

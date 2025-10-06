@@ -1,0 +1,81 @@
+{
+  "report_name": "ADVICE OF RATE CHANGE",
+  "header_skip": 22,
+  "footer_skip": 0,
+  "use_content_date": false,
+  "show_csv_header": false,
+  "fields": [
+    {
+      "label": "NAME 1",
+      "group": 1,
+      "line": 15,
+      "left": 5,
+      "right": 59,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 1,
+      "line": 15,
+      "left": 74,
+      "right": 90,
+      "color": "#ffff80"
+    },
+    {
+      "label": "NAME 2",
+      "group": 1,
+      "line": 16,
+      "left": 5,
+      "right": 59,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "NOTE_NUMBER",
+      "group": 1,
+      "line": 16,
+      "left": 71,
+      "right": 90,
+      "color": "#80ff80"
+    },
+    {
+      "label": "NAME 3",
+      "group": 1,
+      "line": 17,
+      "left": 5,
+      "right": 59,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "ADDRESS 1",
+      "group": 1,
+      "line": 18,
+      "left": 5,
+      "right": 90,
+      "color": "#00ffff"
+    },
+    {
+      "label": "ADDRESS 2",
+      "group": 1,
+      "line": 19,
+      "left": 5,
+      "right": 90,
+      "color": "#00ffff"
+    },
+    {
+      "label": "RATE 1",
+      "group": 1,
+      "line": 25,
+      "left": 22,
+      "right": 68,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "RATE 2",
+      "group": 1,
+      "line": 26,
+      "left": 25,
+      "right": 68,
+      "color": "#ff80c0"
+    }
+  ]
+}

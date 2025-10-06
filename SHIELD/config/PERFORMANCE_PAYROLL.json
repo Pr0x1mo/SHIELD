@@ -1,0 +1,137 @@
+{
+  "report_name": "PERFORMANCE_PAYROLL",
+  "header_skip": 0,
+  "footer_skip": 0,
+  "use_content_date": false,
+  "show_csv_header": false,
+  "fields": [
+    {
+      "label": "REPORT_DATE",
+      "group": 1,
+      "line": 1,
+      "left": 5,
+      "right": 16,
+      "color": "#ff8080"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 1,
+      "line": 5,
+      "left": 0,
+      "right": 10,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "PERSON",
+      "group": 1,
+      "line": 5,
+      "left": 11,
+      "right": 31,
+      "color": "#ffff80"
+    },
+    {
+      "label": "DEPARTMENT",
+      "group": 1,
+      "line": 5,
+      "left": 32,
+      "right": 50,
+      "color": "#80ff80"
+    },
+    {
+      "label": "SALARY",
+      "group": 1,
+      "line": 5,
+      "left": 51,
+      "right": 63,
+      "color": "#80ffff"
+    },
+    {
+      "label": "LAST_REVIEW",
+      "group": 1,
+      "line": 5,
+      "left": 64,
+      "right": 79,
+      "color": "#0080ff"
+    },
+    {
+      "label": "STATUS",
+      "group": 1,
+      "line": 5,
+      "left": 80,
+      "right": 95,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "DEPARMENT",
+      "group": 2,
+      "line": 14,
+      "left": 0,
+      "right": 15,
+      "color": "#ff0000"
+    },
+    {
+      "label": "EMPLOYEE_COUNT",
+      "group": 2,
+      "line": 14,
+      "left": 16,
+      "right": 33,
+      "color": "#ff8040"
+    },
+    {
+      "label": "AVG_SALARY",
+      "group": 2,
+      "line": 14,
+      "left": 34,
+      "right": 49,
+      "color": "#80ff00"
+    },
+    {
+      "label": "PROJECTS_COMPLETED",
+      "group": 2,
+      "line": 14,
+      "left": 50,
+      "right": 72,
+      "color": "#8080ff"
+    },
+    {
+      "label": "OVERDUE_TASKS",
+      "group": 2,
+      "line": 14,
+      "left": 73,
+      "right": 80,
+      "color": "#00ffff"
+    },
+    {
+      "label": "MONTH",
+      "group": 3,
+      "line": 23,
+      "left": 0,
+      "right": 16,
+      "color": "#ffff80"
+    },
+    {
+      "label": "TOTAL_SALARIES",
+      "group": 3,
+      "line": 23,
+      "left": 17,
+      "right": 37,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "BONUSES_PAID",
+      "group": 3,
+      "line": 23,
+      "left": 38,
+      "right": 56,
+      "color": "#80ff00"
+    },
+    {
+      "label": "OVERTIME",
+      "group": 3,
+      "line": 23,
+      "left": 57,
+      "right": 70,
+      "color": "#00ffff"
+    }
+  ]
+}

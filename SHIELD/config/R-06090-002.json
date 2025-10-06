@@ -1,0 +1,185 @@
+{
+  "report_name": "R-06090-002",
+  "header_skip": 0,
+  "footer_skip": 0,
+  "use_content_date": false,
+  "show_csv_header": false,
+  "fields": [
+    {
+      "label": "ACCOUNT NOTE NUMBER",
+      "group": 1,
+      "line": 12,
+      "left": 102,
+      "right": 121,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "STATEMENT DATE",
+      "group": 1,
+      "line": 13,
+      "left": 97,
+      "right": 121,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "OFFICER",
+      "group": 1,
+      "line": 14,
+      "left": 90,
+      "right": 121,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "BRANCH NUMBER",
+      "group": 1,
+      "line": 15,
+      "left": 96,
+      "right": 121,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "CURRENT BALANCE",
+      "group": 1,
+      "line": 16,
+      "left": 98,
+      "right": 121,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "PAYMENT DUE DATE",
+      "group": 1,
+      "line": 17,
+      "left": 99,
+      "right": 121,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "AMOUNT DUE",
+      "group": 1,
+      "line": 19,
+      "left": 93,
+      "right": 121,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "NAME",
+      "group": 2,
+      "line": 16,
+      "left": 5,
+      "right": 83,
+      "color": "#ffff80"
+    },
+    {
+      "label": "ADDRESS",
+      "group": 2,
+      "line": 17,
+      "left": 5,
+      "right": 83,
+      "color": "#ffff80"
+    },
+    {
+      "label": "ADDRESS 2",
+      "group": 2,
+      "line": 18,
+      "left": 5,
+      "right": 83,
+      "color": "#ffff80"
+    },
+    {
+      "label": "NOTE CATEGORY",
+      "group": 3,
+      "line": 33,
+      "left": 0,
+      "right": 16,
+      "color": "#80ff80"
+    },
+    {
+      "label": "CURRENT BALANCE",
+      "group": 3,
+      "line": 33,
+      "left": 17,
+      "right": 37,
+      "color": "#80ff80"
+    },
+    {
+      "label": "INTEREST RATE",
+      "group": 3,
+      "line": 33,
+      "left": 38,
+      "right": 55,
+      "color": "#80ff80"
+    },
+    {
+      "label": "MATURITY DATE",
+      "group": 3,
+      "line": 33,
+      "left": 56,
+      "right": 68,
+      "color": "#80ff80"
+    },
+    {
+      "label": "PRINCIPAL PAYMENT",
+      "group": 4,
+      "line": 33,
+      "left": 86,
+      "right": 121,
+      "color": "#80ffff"
+    },
+    {
+      "label": "INTEREST DUE",
+      "group": 4,
+      "line": 34,
+      "left": 89,
+      "right": 121,
+      "color": "#80ffff"
+    },
+    {
+      "label": "TOTAL DUE",
+      "group": 4,
+      "line": 35,
+      "left": 90,
+      "right": 121,
+      "color": "#80ffff"
+    },
+    {
+      "label": "INTEREST PAID",
+      "group": 5,
+      "line": 38,
+      "left": 14,
+      "right": 43,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "ESCROW INTEREST PAID",
+      "group": 5,
+      "line": 38,
+      "left": 64,
+      "right": 85,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "UNAPPLIED FUNDS",
+      "group": 5,
+      "line": 39,
+      "left": 16,
+      "right": 43,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "ESCROW BALANCE",
+      "group": 5,
+      "line": 39,
+      "left": 58,
+      "right": 85,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "TAXES DISBURSED",
+      "group": 5,
+      "line": 40,
+      "left": 16,
+      "right": 43,
+      "color": "#ff80c0"
+    }
+  ]
+}

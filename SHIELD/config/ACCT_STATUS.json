@@ -1,0 +1,129 @@
+{
+  "report_name": "ACCT_STATUS",
+  "header_skip": 0,
+  "footer_skip": 4,
+  "use_content_date": false,
+  "show_csv_header": false,
+  "fields": [
+    {
+      "label": "REPORT_DATE",
+      "group": 1,
+      "line": 1,
+      "left": 5,
+      "right": 16,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 2,
+      "line": 5,
+      "left": 0,
+      "right": 12,
+      "color": "#ffff80"
+    },
+    {
+      "label": "PERSON",
+      "group": 2,
+      "line": 5,
+      "left": 12,
+      "right": 33,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "BALANCE",
+      "group": 2,
+      "line": 5,
+      "left": 33,
+      "right": 46,
+      "color": "#80ff80"
+    },
+    {
+      "label": "DATE",
+      "group": 2,
+      "line": 5,
+      "left": 46,
+      "right": 61,
+      "color": "#80ffff"
+    },
+    {
+      "label": "STATUS",
+      "group": 2,
+      "line": 5,
+      "left": 61,
+      "right": 71,
+      "color": "#0080ff"
+    },
+    {
+      "label": "DATE",
+      "group": 3,
+      "line": 14,
+      "left": 0,
+      "right": 11,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 3,
+      "line": 14,
+      "left": 11,
+      "right": 23,
+      "color": "#ffff80"
+    },
+    {
+      "label": "TRANSACTION_TYPE",
+      "group": 3,
+      "line": 14,
+      "left": 23,
+      "right": 42,
+      "color": "#80ff80"
+    },
+    {
+      "label": "AMOUNT",
+      "group": 3,
+      "line": 14,
+      "left": 42,
+      "right": 54,
+      "color": "#80ffff"
+    },
+    {
+      "label": "BRANCH_CODE",
+      "group": 3,
+      "line": 14,
+      "left": 54,
+      "right": 65,
+      "color": "#0080ff"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 4,
+      "line": 23,
+      "left": 0,
+      "right": 12,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "FLAGGED_ACCOUNT_ISSUE",
+      "group": 4,
+      "line": 23,
+      "left": 12,
+      "right": 44,
+      "color": "#ffff80"
+    },
+    {
+      "label": "DATE",
+      "group": 4,
+      "line": 23,
+      "left": 44,
+      "right": 59,
+      "color": "#80ff80"
+    },
+    {
+      "label": "RESOLUTION",
+      "group": 4,
+      "line": 23,
+      "left": 59,
+      "right": 75,
+      "color": "#80ffff"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.8.7,<3.9.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"4b65aa7",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "ner":[
+      "ACCOUNT_NUMBER",
+      "ACCOUNT_NUMBER 2",
+      "ACCOUNT_NUMBER 3",
+      "ADDRESS",
+      "AMOUNT",
+      "AVG_SALARY",
+      "BALANCE",
+      "BONUSES_PAID",
+      "BRANCH_CODE",
+      "DATE",
+      "DATE_OF_BIRTH",
+      "DEPARTMENT",
+      "DOB",
+      "EMPLOYEE_COUNT",
+      "FLAGGED DATE",
+      "FLAGGED_ACCOUNT_ISSUE",
+      "ISSUE",
+      "LAST_REVIEW",
+      "MONEY",
+      "MONTH",
+      "NAME",
+      "ORG",
+      "OVERDUE_TASKS",
+      "OVERTIME",
+      "PERSON",
+      "PHONE",
+      "PHONE_NUMBER",
+      "PROJECTS_COMPLETED",
+      "RATE",
+      "REASON",
+      "REPORT DATE",
+      "REPORT_DATE",
+      "RESOLUTION",
+      "SALARY",
+      "SSN",
+      "STATUS",
+      "TOTAL_SALARIES",
+      "TRANSACTION_TYPE"
+    ]
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "components":[
+    "ner"
+  ],
+  "disabled":[
+
+  ]
+}

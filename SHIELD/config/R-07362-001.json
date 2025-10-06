@@ -1,0 +1,89 @@
+{
+  "report_name": "R-07362-001",
+  "header_skip": 1,
+  "footer_skip": 0,
+  "use_content_date": false,
+  "show_csv_header": false,
+  "fields": [
+    {
+      "label": "NAME",
+      "group": 1,
+      "line": 15,
+      "left": 5,
+      "right": 50,
+      "color": "#80ff80"
+    },
+    {
+      "label": "ADDRESS",
+      "group": 1,
+      "line": 16,
+      "left": 5,
+      "right": 50,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "ADDRESS",
+      "group": 1,
+      "line": 17,
+      "left": 5,
+      "right": 50,
+      "color": "#ffff80"
+    },
+    {
+      "label": "REF_NUMBER",
+      "group": 2,
+      "line": 33,
+      "left": 56,
+      "right": 100,
+      "color": "#ffff80"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 2,
+      "line": 34,
+      "left": 57,
+      "right": 100,
+      "color": "#ffff80"
+    },
+    {
+      "label": "NOTE",
+      "group": 2,
+      "line": 35,
+      "left": 54,
+      "right": 100,
+      "color": "#ffff80"
+    },
+    {
+      "label": "ISSUE_DATE",
+      "group": 2,
+      "line": 36,
+      "left": 60,
+      "right": 100,
+      "color": "#ffff80"
+    },
+    {
+      "label": "ACCOUNT_NAME",
+      "group": 2,
+      "line": 37,
+      "left": 59,
+      "right": 100,
+      "color": "#ffff80"
+    },
+    {
+      "label": "ADDRESS 2",
+      "group": 3,
+      "line": 42,
+      "left": 49,
+      "right": 100,
+      "color": "#80ff80"
+    },
+    {
+      "label": "ADDRESS 2",
+      "group": 3,
+      "line": 43,
+      "left": 49,
+      "right": 100,
+      "color": "#80ff80"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "report_name": "ACCT_DETAIL",
+  "header_skip": 0,
+  "footer_skip": 0,
+  "use_content_date": false,
+  "show_csv_header": false,
+  "fields": [
+    {
+      "label": "DATE",
+      "group": 1,
+      "line": 1,
+      "left": 6,
+      "right": 16,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 2,
+      "line": 4,
+      "left": 0,
+      "right": 12,
+      "color": "#ff8080"
+    },
+    {
+      "label": "NAME",
+      "group": 2,
+      "line": 4,
+      "left": 12,
+      "right": 33,
+      "color": "#80ff80"
+    },
+    {
+      "label": "SSN",
+      "group": 2,
+      "line": 4,
+      "left": 33,
+      "right": 48,
+      "color": "#80ffff"
+    },
+    {
+      "label": "DOB",
+      "group": 2,
+      "line": 4,
+      "left": 48,
+      "right": 61,
+      "color": "#0080ff"
+    },
+    {
+      "label": "ADDRESS",
+      "group": 2,
+      "line": 4,
+      "left": 61,
+      "right": 92,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "PHONE_NUMBER",
+      "group": 2,
+      "line": 4,
+      "left": 92,
+      "right": 107,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "DATE",
+      "group": 3,
+      "line": 13,
+      "left": 0,
+      "right": 15,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "ACCOUNT_NUMBER 2",
+      "group": 3,
+      "line": 13,
+      "left": 15,
+      "right": 27,
+      "color": "#80ff80"
+    },
+    {
+      "label": "TRANSACTION_TYPE",
+      "group": 3,
+      "line": 13,
+      "left": 27,
+      "right": 46,
+      "color": "#80ffff"
+    },
+    {
+      "label": "AMOUNT",
+      "group": 3,
+      "line": 13,
+      "left": 46,
+      "right": 60,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "BRANCH_CODE",
+      "group": 3,
+      "line": 13,
+      "left": 60,
+      "right": 75,
+      "color": "#8000ff"
+    },
+    {
+      "label": "ACCOUNT_NUMBER 3",
+      "group": 4,
+      "line": 22,
+      "left": 0,
+      "right": 12,
+      "color": "#ff8080"
+    },
+    {
+      "label": "ISSUE",
+      "group": 4,
+      "line": 22,
+      "left": 12,
+      "right": 44,
+      "color": "#ffff80"
+    },
+    {
+      "label": "FLAGGED DATE",
+      "group": 4,
+      "line": 22,
+      "left": 44,
+      "right": 60,
+      "color": "#00ff80"
+    },
+    {
+      "label": "RESOLUTION",
+      "group": 4,
+      "line": 22,
+      "left": 60,
+      "right": 75,
+      "color": "#FFCCCC"
+    }
+  ]
+}

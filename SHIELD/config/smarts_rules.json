@@ -1,0 +1,231 @@
+{
+  "Drop FIELD_NAME header columns": {
+    "enabled": true,
+    "priority": 1,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "==",
+        "value": "FIELD_NAME"
+      }
+    ],
+    "actions": [
+      { "type": "EXCLUDE" }
+    ]
+  },
+
+  "Unify REPORT DATE to DATE": {
+    "enabled": true,
+    "priority": 2,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "in",
+        "value": [ "REPORT DATE", "REPORT_DATE" ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "RENAME_LABEL",
+        "value": "DATE"
+      },
+      {
+        "type": "HIGHLIGHT",
+        "color": "yellow"
+      }
+    ]
+  },
+
+  "Rename DATE OF BIRTH to DOB": {
+    "enabled": true,
+    "priority": 3,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "==",
+        "value": "DATE OF BIRTH"
+      }
+    ],
+    "actions": [
+      {
+        "type": "RENAME_LABEL",
+        "value": "DOB"
+      },
+      {
+        "type": "HIGHLIGHT",
+        "color": "yellow"
+      }
+    ]
+  },
+
+  "Rename FLAGGED DATE to DATE": {
+    "enabled": true,
+    "priority": 4,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "==",
+        "value": "FLAGGED DATE"
+      }
+    ],
+    "actions": [
+      {
+        "type": "RENAME_LABEL",
+        "value": "DATE"
+      }
+    ]
+  },
+
+  "Unify ACCOUNT_NUMBER variants": {
+    "enabled": true,
+    "priority": 5,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "in",
+        "value": [ "ACCOUNT_NUMBER 2", "ACCOUNT_NUMBER 3" ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "RENAME_LABEL",
+        "value": "ACCOUNT_NUMBER"
+      }
+    ]
+  },
+
+  "Flag and highlight ACCOUNT_NUMBER (9-12 digits)": {
+    "enabled": true,
+    "priority": 6,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "==",
+        "value": "ACCOUNT_NUMBER"
+      },
+      {
+        "type": "VALUE_REGEX",
+        "pattern": "^\\d{9,12}$"
+      }
+    ],
+    "actions": [
+      {
+        "type": "FLAG",
+        "value": "ACCOUNT"
+      },
+      {
+        "type": "HIGHLIGHT",
+        "color": "cyan"
+      }
+    ]
+  },
+
+  "Flag SSN as high risk": {
+    "enabled": true,
+    "priority": 7,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "==",
+        "value": "SSN"
+      },
+      {
+        "type": "VALUE_REGEX",
+        "pattern": "^\\d{3}-\\d{2}-\\d{4}$"
+      }
+    ],
+    "actions": [
+      {
+        "type": "FLAG",
+        "value": "PII_SSN"
+      },
+      {
+        "type": "HIGHLIGHT",
+        "color": "red"
+      }
+    ]
+  },
+
+  "Drop zero AMOUNT values": {
+    "enabled": true,
+    "priority": 8,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "==",
+        "value": "AMOUNT"
+      },
+      {
+        "type": "VALUE_REGEX",
+        "pattern": "^\\$?0+(\\.00)?$"
+      }
+    ],
+    "actions": [
+      { "type": "EXCLUDE" }
+    ]
+  },
+
+  "Drop zero BALANCE values": {
+    "enabled": true,
+    "priority": 9,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "==",
+        "value": "BALANCE"
+      },
+      {
+        "type": "VALUE_REGEX",
+        "pattern": "^\\$?0+(\\.00)?$"
+      }
+    ],
+    "actions": [
+      { "type": "EXCLUDE" }
+    ]
+  },
+
+  "Highlight suspicious STATUS": {
+    "enabled": true,
+    "priority": 10,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "==",
+        "value": "STATUS"
+      },
+      {
+        "type": "VALUE",
+        "operator": "in",
+        "value": [ "INACTIVE", "CLOSED", "PENDING" ]
+      }
+    ],
+    "actions": [
+      {
+        "type": "FLAG",
+        "value": "STATUS_REVIEW"
+      },
+      {
+        "type": "HIGHLIGHT",
+        "color": "magenta"
+      }
+    ]
+  },
+
+  "Highlight MONEY values": {
+    "enabled": true,
+    "priority": 11,
+    "conditions": [
+      {
+        "type": "LABEL",
+        "operator": "==",
+        "value": "MONEY"
+      }
+    ],
+    "actions": [
+      {
+        "type": "HIGHLIGHT",
+        "color": "green"
+      }
+    ]
+  }
+}

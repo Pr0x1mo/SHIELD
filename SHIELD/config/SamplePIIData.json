@@ -1,0 +1,129 @@
+{
+  "report_name": "SamplePIIData",
+  "header_skip": 0,
+  "footer_skip": 0,
+  "use_content_date": false,
+  "show_csv_header": false,
+  "fields": [
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 1,
+      "line": 10,
+      "left": 0,
+      "right": 19,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "PERSON",
+      "group": 1,
+      "line": 10,
+      "left": 19,
+      "right": 42,
+      "color": "#ffff80"
+    },
+    {
+      "label": "DATE",
+      "group": 1,
+      "line": 10,
+      "left": 42,
+      "right": 53,
+      "color": "#80ff80"
+    },
+    {
+      "label": "REASON",
+      "group": 1,
+      "line": 10,
+      "left": 53,
+      "right": 59,
+      "color": "#80ffff"
+    },
+    {
+      "label": "AMOUNT",
+      "group": 1,
+      "line": 10,
+      "left": 59,
+      "right": 77,
+      "color": "#0080ff"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 1,
+      "line": 10,
+      "left": 77,
+      "right": 88,
+      "color": "#ff80c0"
+    },
+    {
+      "label": "TRANSACTION_CODE",
+      "group": 1,
+      "line": 10,
+      "left": 88,
+      "right": 99,
+      "color": "#8080c0"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 1,
+      "line": 10,
+      "left": 99,
+      "right": 112,
+      "color": "#008040"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 1,
+      "line": 10,
+      "left": 120,
+      "right": 135,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "DATE",
+      "group": 2,
+      "line": 11,
+      "left": 42,
+      "right": 53,
+      "color": "#ffcccc"
+    },
+    {
+      "label": "REASON",
+      "group": 2,
+      "line": 11,
+      "left": 53,
+      "right": 59,
+      "color": "#ffff80"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 2,
+      "line": 11,
+      "left": 59,
+      "right": 76,
+      "color": "#00ff80"
+    },
+    {
+      "label": "ACCOUNT_NUMBER",
+      "group": 2,
+      "line": 11,
+      "left": 76,
+      "right": 98,
+      "color": "#80ffff"
+    },
+    {
+      "label": "ORG",
+      "group": 2,
+      "line": 11,
+      "left": 98,
+      "right": 118,
+      "color": "#FFCCCC"
+    },
+    {
+      "label": "FIELD_NAME",
+      "group": 2,
+      "line": 11,
+      "left": 118,
+      "right": 138,
+      "color": "#0080ff"
+    }
+  ]
+}
