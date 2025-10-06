@@ -1,4 +1,4 @@
-# SHIELD - Secure Handling of Information with Extraction, Language processing & Data obfuscation
+# SHIELD = spaCy-powered Handling, Ingestion & Entity-Level De-identification
 
 A Python-based data processing pipeline that imports unstructured financial documents, structures them using NLP, stores them in SQL Server, and applies data obfuscation for privacy compliance.
 
