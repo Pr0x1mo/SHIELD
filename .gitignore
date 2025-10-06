@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.log
+
+# Secrets / env
+*.env
+.env
+.env.*
+
+# Artifacts & data
+SHIELD/data/
+SHIELD/obfuscated_output/
+"FF Parser"/input/
+"FF Parser"/output/
+*.spacy
+*.model
+
+# Editors/OS
+.vscode/
+.DS_Store
+Thumbs.db
