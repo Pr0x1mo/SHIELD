@@ -87,8 +87,6 @@ This will:
 - Maintain referential integrity with deterministic pseudonymization
 
 ## Project Structure
-
-
 SHIELD/
 ├── shield_dashboard_gui.py     # Main GUI application
 ├── FF Parser/
