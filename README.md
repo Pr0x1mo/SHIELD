@@ -87,6 +87,7 @@ This will:
 - Maintain referential integrity with deterministic pseudonymization
 
 ## Project Structure
+```
 SHIELD/
 ├── shield_dashboard_gui.py     # Main GUI application
 ├── FF Parser/
@@ -98,6 +99,7 @@ SHIELD/
 │   └── input/                 # Input files directory
 │       └── SampleFileSTMT.txt # Sample input file
 └── SHIELD/                     # Additional SHIELD modules
+```
 
 ## Database Schema
 
